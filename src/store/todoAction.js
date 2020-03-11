@@ -91,7 +91,8 @@ export function todoMessage(message, types) {
         alert.type = types || 'secondary'
         alert.message = message
         alert.isAlert = true
-    dispatch ({type: TODO_MESSAGE, alert})
+        dispatch ({type: TODO_MESSAGE, alert})
+        const timer = setTimeout(() => dispatch(closeAlert()), 10000)
     }
 }
 
