@@ -1,0 +1,8 @@
+export const TODO_ADD = 'TODO_ADD'
+export const TODO_REMOVE = 'TODO_REMOVE'
+export const TODO_APPLY = 'TODO_APPLY'
+export const TODO_FETCH_START = 'TODO_FETCH_START'
+export const TODO_FETCH_SUCCESS = 'TODO_FETCH_SUCCESS'
+export const TODO_MESSAGE = 'TODO_MESSAGE'
+export const TODO_CHANGE_INPUT = 'TODO_CHANGE_INPUT'
+export const CLOSE_ALERT = 'CLOSE_ALERT'
